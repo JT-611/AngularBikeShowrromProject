@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <p>Service24</p>
+        </div>
+        <ul>
+            <li> <a routerLink="/home"> Home </a> </li>
+            <li> <a routerLink="/about"> About </a> </li>
+            <li> <a href="#"> Contact </a> </li>
+            <li> <a href="#"> Services </a> </li>
+            <li> <a routerLink="/gallery"> Galllery </a> </li>
+        </ul>
+    </nav>
+
+    <div class="content_item">
+        <div class="inner">
+            <p>BIKES SHOWROOM</p>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="assets/royal-350-grey.jpg"
+                     class="img-fluid rounded img-thumbnail ms-5 " alt="banner" height="600" width="400">
+                </div>
+                <div class="col-md-7">
+                  <h4 class="text-white ms-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+                     ipsum excepturi eum aspernatur velit quam molestias neque aliquid assumenda esse,
+                     repellendus nulla voluptatibus non quae unde facere incidunt illum error!
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+                     ipsum excepturi eum aspernatur velit quam molestias neque aliquid assumenda esse,
+                     repellendus nulla voluptatibus non quae unde facere incidunt illum error!
+                  </h4>
+                </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  </body>
+  </html>
+<router-outlet></router-outlet>

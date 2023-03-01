@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "bkmd": "Hero",
+      "bkengine": "125",
+      "bkclr": "black",
+      "avlqty": "10",
+      "price": "130000",
+      "desc": "good for middle class"
+    },
+    {
+      "id": 3,
+      "bkmd": "splender",
+      "bkengine": "150",
+      "bkclr": "blue",
+      "avlqty": "20",
+      "price": "130000",
+      "desc": "best"
+    },
+    {
+      "id": 4,
+      "bkmd": "Royal Enfield",
+      "bkengine": "220",
+      "bkclr": "sky blue",
+      "avlqty": "10",
+      "price": "250000",
+      "desc": "best bike for adventure"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
