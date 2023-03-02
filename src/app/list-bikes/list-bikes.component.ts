@@ -46,26 +46,21 @@ export class ListBikesComponent implements OnInit
   {
     this.api.deleteProduct(row.id)
       .subscribe(res=>{
-        alert("Employee Data Deleted..");
+        alert("Product Data Deleted..");
       this.getAllProduct()
       })
   }
   onEdit(row : any)
   {
 
-    this.router.navigate(['/add-bikes/',row]);
+    this.productObj.id = row.id;
 
-
-    alert(this.productObj.id = row.id);
-    console.log(this.productObj.id = row.bkmd);
-
-
-    // alert(this.formValue.controls['bkmd'].setValue(row.bkmd));
-    // this.formValue.controls['bkengine'].setValue(row.bkengine)
-    // this.formValue.controls['bkclr'].setValue(row.bkclr)
-    // this.formValue.controls['avlqty'].setValue(row.avlqty)
-    // this.formValue.controls['price'].setValue(row.price)
-    // this.formValue.controls['desc'].setValue(row.desc)
+    this.formValue.controls['bkmd'].setValue(row.bkmd);
+    this.formValue.controls['bkengine'].setValue(row.bkengine)
+    this.formValue.controls['bkclr'].setValue(row.bkclr)
+    this.formValue.controls['avlqty'].setValue(row.avlqty)
+    this.formValue.controls['price'].setValue(row.price)
+    this.formValue.controls['desc'].setValue(row.desc)
   }
 
   updateProductDetails()
@@ -80,13 +75,13 @@ export class ListBikesComponent implements OnInit
 
 
     this.api.updateProduct(this.productObj,this.productObj.id).subscribe(res=>{
-      alert("Update Product Data Succesfully!!")
+      alert("Update Bike Data Succesfully!!")
 
       this.getAllProduct();
 
-      console.log(res);
+      // console.log(res);
 
-      this.router.navigate(['/list-bikes']);
+      // this.router.navigate(['/list-bikes']);
     })
 
   }

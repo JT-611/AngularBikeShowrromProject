@@ -5,9 +5,9 @@
       "bkmd": "Hero",
       "bkengine": "125",
       "bkclr": "black",
-      "avlqty": "10",
+      "avlqty": "9",
       "price": "130000",
-      "desc": "good for middle class"
+      "desc": "Good bike in less budget"
     },
     {
       "id": 3,
@@ -20,12 +20,21 @@
     },
     {
       "id": 4,
+      "bkmd": "Bobber",
+      "bkengine": "334CC",
+      "bkclr": "black",
+      "avlqty": "5",
+      "price": "500000",
+      "desc": "Top Speed,Best Dimension,5 gears."
+    },
+    {
+      "id": 5,
       "bkmd": "Royal Enfield",
-      "bkengine": "220",
-      "bkclr": "sky blue",
-      "avlqty": "10",
-      "price": "250000",
-      "desc": "best bike for adventure"
+      "bkengine": "350CC",
+      "bkclr": "Red",
+      "avlqty": "7",
+      "price": "150000",
+      "desc": "Its a brand name in bikes model"
     }
   ],
   "comments": [],
